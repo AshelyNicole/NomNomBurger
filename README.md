@@ -11,7 +11,4 @@ For this project we are ask to create an app that allows the client to create th
 
 # Final Product
 
-The final app should look like this:
-
-
-<img src ="">
+Deployed on Heroku: https://lit-stream-27701.herokuapp.com/ 
