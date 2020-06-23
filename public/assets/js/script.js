@@ -6,7 +6,7 @@ $(document).ready(function() {
     var burgerId = $(this).children(".condition").val()
     $.ajax({
       method: "PUT",
-      url: "/" + burgerId
+      url: "/api/createBurger" + burgerId
     }).then(function(data) {
       location.reload();
     })
