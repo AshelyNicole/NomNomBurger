@@ -1,13 +1,12 @@
 // Set up MySQL connection.
 var express = require("express")
-var router = express.Router
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-  host: "localhost",
+  host: "us-cdbr-east-05.cleardb.net",
   PORT: 3306,
-  user: "root",
-  password: "rootroot",
+  user: "b31385e9079af8",
+  password: "28e39d55",
   database: "burgers_db"
 });
 
